@@ -1,8 +1,8 @@
-import { inventory } from "./inventory.js";
+import { inventory} from "./inventory.js";
 
-export default function getAllYears(inventory) {
+export default function getAllYears(cars=inventory) {
     let years = [];
-    for (let car of inventory) {
+    for (let car of cars) {
         years.push(car["car_year"])
     }
     return years;

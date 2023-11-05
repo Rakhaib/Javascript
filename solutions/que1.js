@@ -1,6 +1,6 @@
 import { inventory } from './inventory.js'
 
-function getCarbyID(inventory) {
+export function getCarbyID(inventory) {
     for (let car of inventory) {
 
         if (car["id"] == 33) {

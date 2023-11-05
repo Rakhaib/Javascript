@@ -1,7 +1,7 @@
 import { inventory } from "./inventory.js";
 
 
-function sortAlphabetically(inventory) {
+export function sortAlphabetically(inventory) {
     inventory.sort((a, b) => {
         return a.car_model.localeCompare(b.car_model);
     })

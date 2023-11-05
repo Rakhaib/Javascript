@@ -1,11 +1,16 @@
 import getAllYears from "./que4.js"
 // import 
 
-function getCount(rs){
-    for(year in rs){
-        console.log("The count of years is "+year)
-    }
+export function getCount(cars,year2000){
+    let count=0;
+    for(let year of cars){
+        if(year<year2000){
+            // console.log(year);
+            count++;
+        }
+    }return count;
 }
 
-let rs=getAllYears;
-getCount(rs)
+let cars=getAllYears()
+// console.log(cars);
+console.log(getCount(cars,2000));

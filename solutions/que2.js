@@ -1,6 +1,6 @@
 import { inventory } from "./inventory.js";
 
-function getLastCar(inventory) {
+export function getLastCar(inventory) {
   let length = inventory.length;
 
   let lastCar = inventory[length - 1];
