@@ -1,4 +1,4 @@
-import getAllYears from "./que4.js"
+import getAllYears from "./problem4.js"
 // import 
 
 export function getCount(cars,year2000){
@@ -13,4 +13,4 @@ export function getCount(cars,year2000){
 
 let cars=getAllYears()
 // console.log(cars);
-console.log(getCount(cars,2000));
+let carsOlderthan=(getCount(cars,2000));

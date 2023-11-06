@@ -13,4 +13,4 @@ export function getSelectedCars(inventory, listOfCars) {
 
 let listOfCars = ["BMW", "Audi"];
 let selectedCars = getSelectedCars(inventory, listOfCars);
-console.log(JSON.stringify(selectedCars));
+let selectedCarsInString=(JSON.stringify(selectedCars));
